@@ -15,7 +15,7 @@
 	<script>
 	$(window).on("load", function() {
 	$('#commdrawing,#commdrawing2').justifiedGallery({
-                rowHeight : 170,
+                rowHeight : 190,
                 lastRow : 'nojustify',
                 captions: false,
                 margins : 3
@@ -34,37 +34,33 @@
 </head>
 
 <body>
-    <div class="header">
-    <div class="navcontainer">
-        <div class="logocontainer">
-            <div class="logobox">
-                <div class="logo">
-                     <p class="logo">Elly Hoekstra</p>
+   <header class="header">
+            <div class="navwrapper">
+                <div class="logocontainer">
+                    <div class="logobox">
+                        <p class="logo">Elly Hoekstra</p><br>
+                        <p class="logosub">Illustration</p>  
+                    </div>
+                    <div class="emailbox"><p class="email">Nyrrti@outlook.com</p></div>
                 </div>
-                <div class="logosub">
-                    <p class="logosub">Illustration</p>
+                 <div class="navcontainer">
+                    <nav>
+                         <ul>
+                            <li><a href="../index.html">Portfolio</a></li>
+                            <li><a href="commissions.html">Commissions</a></li>
+                            <li><a href="about.html">About</a></li>
+                            <li><a href="faq.html">FAQ</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </nav>
                 </div>
             </div>
-            <div class="emailtop">
-                <p class="email">Nyrrti@Outlook.com</p>
-			</div>
-		</div>
-        <div class="nav">
-            <ul id="topnav">
-            <li><a href="../index.html">Portfolio</a></li>
-            <li><a href="commissions.html">Commissions</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="faq.html">FAQ</a></li>
-            <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </div>
-    </div>      
-</div>
+        </header>
 <div class="spacer"></div>
     
-    <div class="contentcontainer">
-        <div class="commexamplescontainer">
-            <div class="examplebox">
+    <div class="contentwrapper">
+        <div class="commleftwrapper">
+            <div class="commcontainer">
                 <div class="commdrawingcontainer">
                     <div id="commdrawing" class="justified-gallery">
                         <a class="thumb-link" href="../images/1200px/Blue%20dragon%20(2).png"><img alt="caption for image 1" src="../images/300px/Brood%20Mother.jpg"/></a>
@@ -73,8 +69,8 @@
                     </div>
                 </div>
                 <div class="commdescription">
-                    <div class="commtype"><h3>Sketch</h3></div>
-                    <div class="commprice"><p class="price">&euro;300 - &euro;400</p></div>
+                    <div class="commtitle"><h3>Sketch</h3></div>
+                    <div class="commprice"><p class="price">2 Hours</p></div>
                     <hr class="styletwo">
                     <p class="cdescription">Lineart drawing with clean lines containing a character and a detailed background.
                     The drawing can be filled with simple gray colors if specified so.</p>
@@ -82,7 +78,7 @@
                     <p class="cdescription">- Extra characters +&euro;30,-</p>
                 </div>  
             </div> 
-            <div class="examplebox">
+            <div class="commcontainer">
                 <div class="commdrawingcontainer">
                     <div id="commdrawing" class="justified-gallery">
                         <a class="thumb-link" href="../images/1200px/Blue%20dragon%20(2).png"><img alt="caption for image 1" src="../images/300px/Red%20Dragon%20Summoning3.jpg"/></a>
@@ -91,7 +87,7 @@
                 </div>
                 <div class="commdescription">
                     <div class="commtype"><h3>Lineart</h3></div>
-                    <div class="commprice"><p class="price">&euro;300 - &euro;400</p></div>
+                    <div class="commprice"><p class="price">2 Hours</p></div>
                     <hr class="styletwo">
                     <p class="cdescription">Lineart drawing with clean lines containing a character and a detailed background.
                     The drawing can be filled with simple gray colors if specified so.</p>
@@ -99,7 +95,7 @@
                     <p class="cdescription">- Extra characters +&euro;30,-</p>
                 </div>  
             </div> 
-            <div class="examplebox">
+            <div class="commcontainer">
                 <div class="commdrawingcontainer">
                     <div id="commdrawing" class="justified-gallery">
                         <a class="thumb-link" href="../images/1200px/Blue%20dragon%20(2).png"><img alt="caption for image 1" src="../images/300px/Red%20Dragon%20Summoning3.jpg"/></a>
@@ -116,7 +112,7 @@
                     <p class="cdescription">- Extra characters +&euro;30,-</p>
                 </div>  
             </div> 
-            <div class="examplebox">
+            <div class="commcontainer">
                 <div class="commdrawingcontainer">
                     <div id="commdrawing" class="justified-gallery">
                         <a class="thumb-link" href="../images/1200px/Blue%20dragon%20(2).png"><img alt="caption for image 1" src="../images/300px/Red%20Dragon%20Summoning3.jpg"/></a>
@@ -133,7 +129,7 @@
                 </div>  
             </div> 
         </div>
-        <div class="comminfocontainer">
+        <div class="commrightwrapper">
             <div class="orderbox"> <h1>Order Here!</h1></div>
             <h2>Commission Information</h2>
             <hr class="styletwo">
@@ -149,29 +145,28 @@
             <hr class="styletwo">
         </div>
     </div>
-   <div class="footer">
-    <div class="emailfooter">
-        <p class="email">Nyrrti@Outlook.com</p></div>
-    <div class="footercontainer">
-        <ul id="footertext">
-            <li><a href="#.asp">Home</a></li>
-            <li><a href="#.asp">Portfolio</a></li>
-            <li><a href="#.asp">Commissions</a></li>
-            <li><a href="#.asp">About</a></li>
-            <li><a href="#.asp">FAQ</a></li>
-            <li><a href="#.asp">Contact</a></li>
-        </ul>
-        
-        <div class="icons">
-            <div class="icon"><img src="" alt="icon"></div>
-            <div class="icon"><img src="" alt="icon"></div>
-            <div class="icon"><img src="" alt="icon"></div>
-            <div class="icon"><img src="" alt="icon"></div>
-            <div class="icon"><img src="" alt="icon"></div>
-        </div>
-    </div>
-    <div class="copyright">
-        <p class="footer">Copyright © 2015, nyrrti.com.  All Rights Reserved.</p></div>
-</div>
+  <footer class="footerwrapper">
+            <div class="emailfooter"><p class="email">Nyrrti@Outlook.com</p></div>
+            <div class="bottomnav">
+                <nav>
+                    <ul>
+                        <li><a href="#.asp">Home</a></li>
+                        <li><a href="#.asp">Portfolio</a></li>
+                        <li><a href="#.asp">Commissions</a></li>
+                        <li><a href="#.asp">About</a></li>
+                        <li><a href="#.asp">FAQ</a></li>
+                        <li><a href="#.asp">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>    
+                <div class="icons">
+                    <div class="icon"><img src="" alt="icon"></div>
+                    <div class="icon"><img src="" alt="icon"></div>
+                    <div class="icon"><img src="" alt="icon"></div>
+                    <div class="icon"><img src="" alt="icon"></div>
+                    <div class="icon"><img src="" alt="icon"></div>
+                </div>
+        </footer>
+            <div class="copyright"><p class="footer">Copyright © 2015, nyrrti.com.  All Rights Reserved.</p></div>
 </body>
 </html>
