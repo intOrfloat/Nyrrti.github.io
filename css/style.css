@@ -17,7 +17,7 @@ h1{
     font-weight: 400;
     color: #169ed9;
     margin: 0 0 0 0;
-    padding: 20px;
+    padding: 25px;
 }
 	
 		
@@ -229,6 +229,12 @@ nav a:hover {
 
 .commdescription{
     flex:1;
+}
+
+.orderbox {
+    flex-basis: 30%;
+    border: 1px dotted #404447;
+    margin-bottom: 60px;
 }
 
 .aboutcontainer{
