@@ -205,11 +205,11 @@ nav a:hover {
     margin:0 auto;
 }
 
-.commleftwrapper{
+.contentleftwrapper{
     width:100%;
 }
 
-.commrightwrapper{
+.contentrightwrapper{
     width:100%;
 }
 
@@ -229,6 +229,10 @@ nav a:hover {
 
 .commdescription{
     flex:1;
+}
+
+.aboutcontainer{
+    width:100%;
 }
 
     /* FOOTER SECTION */
@@ -316,12 +320,12 @@ div.icon:first-child {
     justify-content: space-between;
 }
     
-    .commleftwrapper{
+    .contentleftwrapper{
     width:60%;
         margin-top: 60px;
     }
     
-    .commrightwrapper{
+    .contentrightwrapper{
     width:30%;
         margin-top: 60px;
     }
