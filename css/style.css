@@ -258,7 +258,7 @@ nav a:hover {
 }
 .icons{
     display: flex;
-    width: 95%;
+    width: 100%;
     max-width: 300px;
     margin: auto;
     justify-content: space-between;
