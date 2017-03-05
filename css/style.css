@@ -259,9 +259,8 @@ nav a:hover {
 .icons{
     display: flex;
     width: 100%;
-    max-width: 300px;
     margin: auto;
-    justify-content: space-between;
+    justify-content:center;
     margin-top: 20px;
     margin-bottom: 20px;
 }
@@ -270,11 +269,12 @@ div.icon {
     width: 44px;
     height: 44px;
     float: left;
+    margin-left: 15px;
 }
 
 
 div.icon:first-child {
-    
+     margin-left: 0px;
 }
 
 .copyright {
