@@ -155,6 +155,11 @@ nav a:hover {
     color: #148dcc;
 }
 
+.container{
+    width: 99%;
+    margin:0 auto;
+}
+
 .header {
     min-height: 300px;
      background-image: url(../images/bg1.png);
