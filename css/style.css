@@ -276,7 +276,7 @@ nav a:hover {
 }
 .icons{
     display: flex;
-    max-width: 100%;
+    flex: 1 100%;
     margin: auto;
     justify-content:center;
     margin-top: 20px;
@@ -288,8 +288,7 @@ nav a:hover {
     display: -moz-flex;
     display: -webkit-flex;
     display: flex;
-    -webkit-justify-content: space-between; 
-    justify-content: space-between;
+    -webkit-justify-content: center; 
 }
 
 div.icon {
