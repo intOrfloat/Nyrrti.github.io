@@ -246,6 +246,10 @@ nav a:hover {
     width:100%;
 }
 
+.formcontainer{
+    width: 100%;
+}
+
     /* FOOTER SECTION */
 .footerwrapper {
     width:  100%;
