@@ -281,13 +281,21 @@ nav a:hover {
     justify-content:center;
     margin-top: 20px;
     margin-bottom: 20px;
+    -ms-box-orient: horizontal;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -moz-flex;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: space-between; 
+    justify-content: space-between;
 }
 
 div.icon {
     width: 44px;
     height: 44px;
     margin-left: 8px;
-    float: left;
 }
 
 
@@ -302,7 +310,6 @@ div.icon:first-child {
     margin: auto; 
     border-top: 1px dotted #404447;
     padding-top: 5px;
-    float: left;
 }
 
     /* Medium screens */
