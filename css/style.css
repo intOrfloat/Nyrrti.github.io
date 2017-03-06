@@ -287,6 +287,7 @@ div.icon {
     width: 44px;
     height: 44px;
     margin-left: 8px;
+    float: left;
 }
 
 
@@ -301,6 +302,7 @@ div.icon:first-child {
     margin: auto; 
     border-top: 1px dotted #404447;
     padding-top: 5px;
+    float: left;
 }
 
     /* Medium screens */
