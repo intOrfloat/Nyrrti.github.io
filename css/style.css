@@ -296,7 +296,8 @@ div.icon:first-child {
 }
 
 .copyright {
-    flex:100%;
+    flex: 1 100%;
+    flex-wrap: nowrap;
     max-width:1200px;
     height: 40px;
     margin: auto; 
