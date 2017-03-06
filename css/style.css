@@ -201,7 +201,7 @@ nav a:hover {
 }
 
 .emailbox {
-    margin-top: 20px;
+    margin-top: 15px;
     max-width: 380px;
 }
 
@@ -259,10 +259,12 @@ nav a:hover {
 
     /* FOOTER SECTION */
 .footerwrapper {
+    display: flex;
     width:  100%;
     max-width: 1200px;
     margin: auto;
     border-bottom: 1px dotted #404447;
+    flex-direction: column;
 }
 
 .emailfooter {
