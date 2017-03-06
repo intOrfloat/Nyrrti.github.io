@@ -276,7 +276,7 @@ nav a:hover {
 }
 .icons{
     display: flex;
-    width: 100%;
+    flex: 1 100%;
     margin: auto;
     justify-content:center;
     margin-top: 20px;
