@@ -286,7 +286,6 @@ nav a:hover {
 div.icon {
     width: 44px;
     height: 44px;
-    float: left;
     margin-left: 8px;
 }
 
@@ -297,7 +296,6 @@ div.icon:first-child {
 
 .copyright {
     flex: 1 100%;
-    flex-wrap: nowrap;
     max-width:1200px;
     height: 40px;
     margin: auto; 
