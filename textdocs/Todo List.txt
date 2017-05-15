@@ -1,0 +1,30 @@
+To do:
+
+GENERAL 
+- Make icons smaller 40px or even less.
+
+
+
+
+
+
+PORTFOLIO PAGE|
+-change look of full view drawing.
+
+COMMISSION PAGE |
+- Add commission intro on mobile version, make it on top.
+- Write terms of service
+
+ABOUT PAGE |
+- Add space on about, faq and contact (margintop)
+
+FAQ PAGE |
+- Add space on top(margintop)
+- Find questions for faq, if they are needed at all?
+
+CONTACT PAGE |
+- Add space on top, currently none on mobile(margintop)
+
+
+To fix:
+- change huge verical drawings on tablet size.
