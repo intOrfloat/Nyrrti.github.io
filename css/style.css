@@ -37,7 +37,7 @@ h3{
     font-weight: 600;
     color: #667080; 
     margin: 0 0 0 0;
-    padding:10px;
+    padding-top: 10px;
 }
 
 p.logo {
@@ -74,7 +74,8 @@ p.comminfo {
     color: #7e848c;
     text-align: left;
     line-height: 1.5em;
-    padding: 10px;
+    padding: 0 5px 0 5px;
+    margin: 15px 0 15px 0;
 }
 
 p.cdescription {
@@ -84,7 +85,8 @@ p.cdescription {
     color: #8a9099;
     text-align: left;
     line-height: 1.5em;
-    padding: 10px;
+    padding: 0 5px 0 5px;
+    margin: 15px 0 15px 0;
 }
 
 p.footer {
@@ -133,6 +135,17 @@ hr.styletwo { border: 0; border-bottom: 1px dashed #404447; background: #404447;
 }
 
 /* GENERAL NAVIGATION CSS */
+ul.commlist {
+    list-style-position: inside;
+    text-align:left;
+    margin:0 auto;
+    font-weight: 400;
+    color: #667080;
+    font-size: 0.9em;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    padding: 10px;
+}
 
 a {
 text-decoration: none;
