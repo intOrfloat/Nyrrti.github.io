@@ -225,7 +225,7 @@ nav a:hover {
 /* CONTENT SECTION */
 
 .contentwrapper {
-    width: 100%;
+    width: 98%;
     max-width: 1200px;
     margin:0 auto;
 }
@@ -240,7 +240,6 @@ nav a:hover {
 
 .contentleftwrapper{
     width:100%;
-    
 }
 
 .contentrightwrapper{
@@ -268,12 +267,12 @@ nav a:hover {
 .orderbox {
     flex-basis: 30%;
     border: 1px dotted #404447;
-    margin-bottom: 60px;
+    margin-bottom: 50px;
 }
 
 .contentbgcontainer{
     width:100%;
-      margin-bottom: 40px;
+    margin-bottom: 40px;
     background-color: #212326;
     padding: 20px;
     border: 1px dotted #08384d;
@@ -380,10 +379,11 @@ div.icon:first-child {
 
     .contentwrapper {
     display: flex;
-    width: 100%;
+    width: 98%;
     max-width: 1200px;
     margin:0 auto;
-    justify-content: space-between;
+    justify-content: space-between; 
+    padding-top: 60px;    
 }
     
     .introcontainer{
@@ -392,12 +392,12 @@ div.icon:first-child {
     
     .contentleftwrapper{
     width:60%;
-        margin-top: 60px;
+    
     }
     
     .contentrightwrapper{
     width:30%;
-        margin-top: 60px;
+    
     }
     
     .commcontainer{
